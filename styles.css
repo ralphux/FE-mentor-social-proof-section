@@ -1,0 +1,215 @@
+body{
+    font-family: 'League Spartan';
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+}
+
+.title{
+    color: #502050;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 85% */
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+
+
+.description{
+    color: rgba(80, 32, 80, 0.70);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 160% */
+    margin-bottom: 36px;
+}
+
+.ratings-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 14px;
+    align-self: stretch;
+    margin-bottom: 48px;
+}
+
+.rating-card{
+    display: flex;
+    padding: 16px 52px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+
+    border-radius: 8px;
+    background: #F7F2F8;
+}
+
+.rating{
+    color: #502050;
+    font-family: "League Spartan";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 106.667% */
+    margin: 4px 0 4px;
+}
+
+.testimonial-card{
+    display: flex;
+    padding: 32px 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    margin-bottom: 20px;
+    text-align: left;
+
+    border-radius: 8px;
+    background: #502050;
+    box-sizing: border-box;
+}
+
+.profile-content{
+    display: flex;
+    gap: 16px;
+}
+
+.name-credit{
+    text-align: left;
+}
+
+.name{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    margin-bottom: 4px;
+}
+
+
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.credit{
+    margin: 0;
+    color: #D56BA9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+}
+
+.testimonial{
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 160% */
+
+    align-self: stretch;
+    }
+
+
+    @media screen and (min-width: 700px) {
+
+        .top-section{
+            display: flex;
+            max-width: 998px;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-self: stretch;
+        }
+
+        .title-text{
+            display: flex;
+            text-align: left;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1 0 0;
+        }
+
+        .ratings-wrapper{
+            display: flex;
+            padding-left: 40px;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 14px;
+        }
+
+        .rating-card{
+            display: flex;
+            padding: 16px 52px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+        }
+
+        .testimonial-wrapper{
+            display: flex;
+            gap: 16px;
+        }
+
+        .testimonial-card
+
+      }
+
+    @media screen and (min-width: 800px) {
+
+        .content-wrapper{
+            max-width: 998px;
+        }
+
+        .top-section{
+            align-items: center;
+
+        }
+
+        .title-text{
+            max-width: 350px;
+        }
+
+.ratings-wrapper{
+    align-items: center;
+    
+}
+
+        .rating-card{
+            flex-direction: row;
+            align-self: none;
+        }
+
+        .rating-card:nth-child(1){
+            margin-right: 72px;
+        }
+
+        .rating-card:nth-child(2){
+            margin-right: 36px;
+        }
+
+
+
+
+        .testimonial-card:nth-child(2) {
+            margin-top: 16px; 
+        }
+  
+
+        .testimonial-card:nth-child(3) {
+            margin-top: 32px;
+        }
+
+    }
